@@ -1,1 +1,9 @@
-{"name":"tank-command","version":"1.0.0","private":true,"scripts":{"start":"node server.js","test":"node --check game.js && node --check server.js"}}
+{
+  "name": "tank-command",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check game.js && node --check server.js && node --test tests/*.test.js"
+  }
+}
